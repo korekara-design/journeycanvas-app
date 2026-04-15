@@ -420,7 +420,7 @@
       </div>
       <h1><span class="hero-line1">予定を立てた瞬間から、</span><br>もう<em>旅</em>は始まってる</h1>
       <p class="hero-sub">こんな旅程アプリが欲しかった。<br>Googleマップの共有URLを貼るだけ。</p>
-      <a href="https://apps.apple.com/jp/app/journeycanvas/id6761838956" class="btn-primary">App Storeでダウンロード</a>
+      <a href="https://apps.apple.com/jp/app/journeycanvas/id6761838956" class="btn-primary" onclick="gtag('event','click_download',{event_category:'CTA',event_label:'hero'})">App Storeでダウンロード</a>
     </div>
     <div class="hero-image">
       <img src="images/screenshot-triplist.jpg" alt="JourneyCanvas">
@@ -535,7 +535,7 @@
     <img src="images/app-icon.png" alt="JourneyCanvas" style="width:48px;height:48px;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.2)">
     <span style="font-size:20px;font-weight:700;color:rgba(255,255,255,0.9);letter-spacing:2px">JOURNEY CANVAS</span>
   </div>
-  <a href="https://apps.apple.com/jp/app/journeycanvas/id6761838956" class="btn-highlight">App Storeでダウンロード</a>
+  <a href="https://apps.apple.com/jp/app/journeycanvas/id6761838956" class="btn-highlight" onclick="gtag('event','click_download',{event_category:'CTA',event_label:'bottom'})">App Storeでダウンロード</a>
 </section>
 
 <!-- Privacy -->
@@ -546,10 +546,10 @@
 <!-- Footer -->
 <footer>
   <div>
-    <a href="https://apps.apple.com/jp/app/journeycanvas/id6761838956">App Store</a>
-    <a href="https://korekara-design.github.io/privacy-policy/">プライバシーポリシー</a>
-    <a href="https://www.threads.com/@reiko_korekara">Threads</a>
-    <a href="https://note.com/reiko_korekara">note</a>
+    <a href="https://apps.apple.com/jp/app/journeycanvas/id6761838956" onclick="gtag('event','click_footer',{event_category:'Footer',event_label:'app_store'})">App Store</a>
+    <a href="https://korekara-design.github.io/privacy-policy/" onclick="gtag('event','click_footer',{event_category:'Footer',event_label:'privacy_policy'})">プライバシーポリシー</a>
+    <a href="https://www.threads.com/@reiko_korekara" onclick="gtag('event','click_footer',{event_category:'Footer',event_label:'threads'})">Threads</a>
+    <a href="https://note.com/reiko_korekara" onclick="gtag('event','click_footer',{event_category:'Footer',event_label:'note'})">note</a>
   </div>
   <p class="copy">&copy; 2026 korekara</p>
 </footer>
